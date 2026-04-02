@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Выгул собак — забота, которую вы можете доверить</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 300;
+      margin-bottom: 16px;
+      color: #222;
+    }
+
+    .subtitle {
+      font-size: 1.3rem;
+      color: #666;
+      max-width: 700px;
+      margin: 0 auto 60px;
+      font-weight: 400;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .btn {
+      padding: 20px 30px;
+      font-size: 1.3rem;
+      font-weight: 500;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      color: white;
+      letter-spacing: 0.5px;
+    }
+
+    .btn-prices {
+      background-color: #4a90e2;
+    }
+
+    .btn-costs {
+      background-color: #50e3c2;
+    }
+
+    .btn-book {
+      background-color: #8a63d2;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn:active {
+      transform: translateY(0);
+    }
+
+    @media (min-width: 768px) {
+      h1 {
+        font-size: 3.5rem;
+      }
+
+      .subtitle {
+        font-size: 1.5rem;
+      }
+
+      .buttons {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .btn {
+        flex: 1;
+        min-width: 150px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Выгул собак</h1>
+  <p class="subtitle">Надёжный и заботливый выгул для вашего питомца — каждый день, в любую погоду, с любовью и ответственностью.</p>
+
+  <div class="buttons">
+    <a href="#prices" class="btn btn-prices">Наши цены</a>
+    <a href="#costs" class="btn btn-costs">Цены за услуги</a>
+    <a href="#book" class="btn btn-book">Записаться</a>
+  </div>
+</body>
+</html>
